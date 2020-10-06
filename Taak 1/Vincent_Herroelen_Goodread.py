@@ -4,16 +4,16 @@ from xml.etree.ElementTree import parse
 import urllib.parse
 import requests
 
-# URL & Key 
+# API & Key 
 main_api = "https://www.goodreads.com/search/index.xml?"
-key = 'Rd6Q4NzLLxtvECX5f9SRA'
+key = input('Please insert your key: ')
 
 
 while True:
     # Asking input from the customer
     input_klant = input('Which book do you want to search [quit/exit]? ')
 
-    # Counter to show the firt 5 results (8000 in total -> too much)
+    # Counter to show the firt 5 results (8000 in total)
     counter = 1
     
     # Let the customer quit without KeyboardInterrupt
