@@ -63,7 +63,7 @@ while True:
                 else:
                     break                     
     else:
-        print('Error! Searched failed, try again.')
+        print('Error! Search failed, try again.')
         print('-'*30)
         break   
 
