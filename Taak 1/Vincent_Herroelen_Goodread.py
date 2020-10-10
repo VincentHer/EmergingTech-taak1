@@ -54,7 +54,7 @@ while True:
                     autheur = item3.findtext('name')
                     frase3 = str(counter) + '. ' + title + ' - ' + autheur + ' (' + str(year) + ') - [' + rating + '/5.00]'
 
-            # Printing the first 5 search results
+            # Printing the search results
                 if int(counter) != int(results):
                     print(frase3)
                     print('Book image: ' + image)
